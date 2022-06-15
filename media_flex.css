@@ -1,0 +1,141 @@
+
+@font-face { font-family: poppins; 
+    src: url(./fonts/Poppins/Poppins-Medium.ttf); 
+} 
+@font-face { font-family: poppins-bold; 
+    src: url(./fonts/Poppins/Poppins-Bold.ttf); 
+} 
+@font-face { font-family: poppins-reg; 
+    src: url(./fonts/Poppins/Poppins-Regular.ttf); 
+} 
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: poppins;
+    color: white;
+}
+
+body{
+    width: 100%;
+    background-repeat: none;
+    background-color: hsl(0, 100%, 74%) ;
+    align-items: center;
+    justify-content: center;
+    box-sizing: content-box;
+    background-image: url("./pictures/drive-download-20220615T123117Z-001/bg-intro-desktop.png");
+    background-image: cover;
+    height: 500px;
+}
+
+main{
+    width: 100%;
+    width: 750px;
+    min-height: 200px;
+    display: flex;
+    margin-left: 200px;
+    align-items: center;
+    justify-items: center;
+    gap: 10px;
+}
+
+img{
+    max-height: 144px;
+}
+
+form{
+    padding-right: 12px;
+}
+
+.left-content{
+    height: auto;
+    width: 2500px;
+    margin-right: 44px;
+}
+
+.right-content{
+    gap: 10px;
+    width: 2500px;
+    font-size: 10px;
+}
+
+
+.top-right{
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    border-radius: 5px;
+    background-color: hsl(248, 32%, 49%);
+    margin-bottom: 12px;
+    text-align: center;
+    box-shadow: 0 5px rgba(0, 0, 0, 0.2) ;
+
+}
+
+.top-right p, .top-right p strong{
+    font-size: 10px;
+
+}
+
+.bottom-right input{
+    border-radius: 5px;
+    margin: 15px;
+    /* background-color: white; */
+    width: 90%;
+    height: 30px;
+    font-size: 10px;
+    padding-left: 15px;
+    margin-bottom: 5px;
+    color: grey;
+}
+
+.bottom-right button{
+    margin: 15px;
+    margin-bottom: 7px;
+    padding: 10px;
+    background-color: hsl(154, 59%, 51%);
+    border-radius: 5px;
+    width: 95%;
+    height: 34px;
+    text-align: center;
+    font-size: 10px;
+}
+.bottom-right{
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 5px rgba(0, 0, 0, 0.2) ;
+
+}
+
+#big-P{
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-family: poppins-bold;
+}
+
+#small-P{
+    font-size: 12px;
+    font-family: poppins-reg;
+}
+
+#last{
+    color: hsl(246, 25%, 77%);
+    font-size: 9px;
+    text-align: center;
+    margin: 6px 15px 15px 15px;
+}
+#last a{
+    color: hsl(0, 100%, 74%);
+    font-size: 7px;
+    justify-content: center;
+    padding-bottom: 100px;
+    text-underline-offset: none;
+    text-decoration: none;
+}
