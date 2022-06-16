@@ -91,6 +91,7 @@ form{
     padding-left: 15px;
     margin-bottom: 5px;
     color: grey;
+    border: 1px solid grey;
 }
 
 .bottom-right button{
