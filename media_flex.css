@@ -91,6 +91,7 @@ form{
     padding-left: 15px;
     margin-bottom: 5px;
     color: grey;
+    border: 1px solid grey;
 }
 
 .bottom-right button{
@@ -103,6 +104,7 @@ form{
     height: 34px;
     text-align: center;
     font-size: 10px;
+    border: none;
 }
 .bottom-right{
     width: 100%;
